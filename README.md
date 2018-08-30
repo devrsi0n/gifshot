@@ -316,11 +316,11 @@ gifshot.takeSnapShot(function(obj) {
 // Note: If you set the saveRenderingContexts option to true, then you get the savedRenderingContexts
 //	in the createGIF callback function
 'savedRenderingContexts': [],
-// When existing images or videos are requested used, we set a CORS attribute on the request.
-// Options are 'Anonymous', 'use-credentials', or a falsy value (like '') to not set a CORS attribute.
-'showFrameText': true,
 // If frame-specific text is supplied with the image array, you can force the frame-specific text to not be displayed
 // by making this option 'false'.
+'showFrameText': true,
+// When existing images or videos are requested used, we set a CORS attribute on the request.
+// Options are 'Anonymous', 'use-credentials', or a falsy value (like '') to not set a CORS attribute.
 'crossOrigin': 'Anonymous',
 waterMark: null,
 // If an image is given here, it will be stamped on top of the GIF frames
